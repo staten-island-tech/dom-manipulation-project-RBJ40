@@ -1,0 +1,96 @@
+body,
+html,
+*{
+    font-size: 30px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.card{
+    width: 30rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.container{
+    display: flex;
+    width: 90vw;
+    margin: 2rem, auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 10px solid red;
+}
+
+.card-img{
+    display: flex;
+    width: 30vw;
+    height: 10vw;
+    object-fit: cover;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    justify-content: space-evenly;
+    box-shadow: 10px 8px rgb(24, 81, 90);
+    
+}
+.card-header{
+    font-size: 2.2rem;
+    margin-top: 1.2rem;
+
+}
+.card-desc{
+}
+
+#img1{
+    height: 20vw;
+    width: 30vw;
+
+}
+#img2{
+    height: 20vw;
+    width: 10vw;
+}
+#img3{
+    height: 20vw;
+    width: 10vw;
+}
+#img4{
+    height: 20vw;
+    width: 20vw;
+}
+button{
+    color: blue;
+}
+
+#img1:hover{
+    transition: 1s;
+    transform: translate(20px, 0px);
+}
+#img2:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+#img3:hover{
+    transition: 0.5s;
+    box-shadow: none;
+
+}
+#img4:hover{
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+}
+#img5:hover{
+    transition: 1s;
+    height: 15vw;
+}
+@keyframes animation {
+    0% {background-color: aqua;}
+    50% {background-color: beige;}
+    100% {background-color: blue;}
+}
