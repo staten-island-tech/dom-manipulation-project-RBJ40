@@ -45,6 +45,8 @@ html,
 
 }
 .card-desc{
+    justify-content: center;
+    border: 10px solid green;
 }
 
 #img1{
@@ -93,4 +95,7 @@ button{
     0% {background-color: aqua;}
     50% {background-color: beige;}
     100% {background-color: blue;}
+}
+ul{
+    text-align: center;
 }
