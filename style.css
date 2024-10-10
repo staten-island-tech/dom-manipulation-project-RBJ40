@@ -45,7 +45,7 @@ html,
 
 }
 .card-desc{
-    justify-content: center;
+    align-items: center;
     border: 10px solid green;
 }
 
@@ -97,5 +97,5 @@ button{
     100% {background-color: blue;}
 }
 ul{
-    text-align: center;
+    text-align: ;
 }
