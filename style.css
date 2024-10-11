@@ -47,6 +47,8 @@ html,
 .card-desc{
     align-items: center;
     border: 10px solid green;
+    box-shadow: 10px 8px rgb(16, 73, 8);
+
 }
 
 #img1{
@@ -65,9 +67,6 @@ html,
 #img4{
     height: 20vw;
     width: 20vw;
-}
-button{
-    color: blue;
 }
 
 #img1:hover{
@@ -97,5 +96,9 @@ button{
     100% {background-color: blue;}
 }
 ul{
-    text-align: ;
+    text-align: center;
+}
+button{
+    background-color: rgb(25, 133, 210);
+    box-shadow: 10px 8px rgb(24, 81, 90);
 }
