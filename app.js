@@ -42,3 +42,9 @@ DOMSelectors.container.insertAdjacentHTML(
 //get values from form for widget object
 //create the card and insert it
 //find remove buttons and add event listeners
+
+//const Album = makeAlbum()
+//addCard(Album)
+//addRemoveButtons
+
+clearFields();
