@@ -51,9 +51,12 @@ html,
 
 }
 ul{
-    text-align: center;
+    align-items: center;
 }
 button{
     background-color: rgb(25, 133, 210);
     box-shadow: 10px 8px rgb(24, 81, 90);
+}
+form{
+    align-items: center;
 }

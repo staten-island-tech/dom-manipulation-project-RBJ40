@@ -38,6 +38,11 @@ DOMSelectors.container.insertAdjacentHTML(
   `<div class="card">${album.name}</div>`
 );
 
+function newObject(input) {}
+
+function clearFields() {}
+
+function removeObject() {}
 //event listener for form
 //get values from form for widget object
 //create the card and insert it
