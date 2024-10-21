@@ -5,58 +5,19 @@ html,
     box-sizing: border-box;
     font-family: 'Times New Roman';
     background-color: rgb(152, 154, 170);
-    text-align: center;
 }
 .card{
     width: 30rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
-    
-}
-.container{
-    display: flex;
-    width: 90vw;
-    margin: 2rem, auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border: 10px solid red;
-}
-
-.card-img{
-    display: flex;
-    width: 30vw;
-    height: 10vw;
-    object-fit: cover;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    background-size: cover;
-    justify-content: space-evenly;
-    box-shadow: 10px 8px rgb(24, 81, 90);
-    
-}
-.card-header{
-    font-size: 2.2rem;
-    margin-top: 1.2rem;
-
+    align-items: center;  
 }
 .card-desc{
-    align-items: center;
     border: 10px solid green;
     box-shadow: 10px 8px rgb(16, 73, 8);
-
-}
-ul{
-    align-items: center;
 }
 button{
     background-color: rgb(25, 133, 210);
     box-shadow: 10px 8px rgb(24, 81, 90);
-}
-form{
-    align-items: center;
 }
