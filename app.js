@@ -41,9 +41,6 @@ buttons.forEach((button) =>
     console.log(event.target.textContent);
   })
 );
-let album = {
-  name: "Abbey Road",
-};
 DOMSelectors.container.insertAdjacentHTML(
   "beforeend",
   `<div class="card">
